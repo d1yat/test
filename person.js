@@ -3,6 +3,10 @@ class Person {
 		this.id = id;
 		this.name = name;
 	}
+
+	greeting() {
+		return `Hello ${this.name}!`;
+	}
 }
 
 module.exports = Person;
