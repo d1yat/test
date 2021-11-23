@@ -1,4 +1,4 @@
-const Person = require('../person.js');
+const Person = require('../js/person.js');
 
 const users = [
 	new Person(101, 'Ahmad Fasehan'),
