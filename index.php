@@ -1,6 +1,10 @@
 <?php
 
-require_once 'person.php';
+namespace App;
+
+require_once 'models/autoload.php';
+
+use App\Models\Person as Person;
 
 class Main
 {
