@@ -19,7 +19,7 @@ class Main
 		];
 
 		foreach ($users as $user) {
-			echo $user->name . "\n";
+			echo "({$user->id}) => {$user->name}\n";
 		}
 	}
 }
